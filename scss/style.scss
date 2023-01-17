@@ -1,0 +1,504 @@
+// =============IMPORT===============
+
+@import '_reset'; // reset styles
+@import '_fonts'; // fonts
+@import '_forms'; // button and forms styles
+
+// =============IMPORT===============
+
+html,
+body {
+	font-family: 'Poppins', sans-serif;
+	background: #FFFFFF;
+	height: 100%;
+	color: #231900;
+	width: 100%;
+}
+
+// announce  assist  nation  flower  remove  display  travel  festival  harsh  pelican  rich  goat
+a {
+	color: #000000;
+}
+
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.contant {
+	flex: 1 1 auto;
+}
+
+.container {
+	max-width: 1201px;
+	margin: 0 auto;
+}
+
+.btn {
+	& a {
+		color: #fff;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 21px;
+		padding: 13.5px 46.5px;
+		background: #FFCC00;
+	}
+}
+
+.title {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	color: #FFCC00;
+}
+
+.subtitle {
+	font-weight: 600;
+	font-size: 55px;
+	line-height: 82px;
+	color: #231900;
+}
+
+// =========================
+
+
+.top-bg {
+	background: url(../img/first/bg.svg) 0 0 no-repeat;
+	background-size: cover;
+}
+
+.header {
+	color: #fff;
+	padding-top: 45px;
+		&__contant {
+		}
+
+		&__row {
+			display: flex;
+		}
+
+		&__logo {
+			padding-right: 372px;
+		}
+
+		&__menu {
+			margin-right: 14px;
+		}
+
+		&__btn {
+		}
+}
+
+
+.menu {
+
+		&__body {
+		}
+
+		&__list {
+			display: flex;
+		}
+
+		&__item {
+			padding-right: 44px;
+			font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+		}
+
+		&__link {
+			color: #fff;
+		}
+}
+
+.first {
+color: #fff;
+padding-top: 80px;
+		&__price {
+			font-weight: 700;
+font-size: 26px;
+line-height: 39px;
+		}
+
+		&__title {
+			font-weight: 600;
+font-size: 64px;
+line-height: 96px;
+padding: 25px 0px 26px 0px  ;
+		}
+
+		&__row {
+			display: flex;
+		}
+
+		&__img {
+			padding-right: 29px;
+		}
+
+		&__text {
+			font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+padding-bottom: 93px;
+		}
+
+		&__btn {
+			padding-bottom: 233px;
+			& a {
+				padding: 13.5px 54px;
+			}
+		}
+}
+
+// =================
+
+.top {
+	text-align: center;
+	padding-bottom: 37.4px;
+	&__contant {
+	}
+
+	&__title {
+	}
+
+	&__subtitle {
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__column {
+	}
+
+	&__img {
+	}
+
+	&__name {
+		text-align: center;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 36px;
+		color: #231900;
+		padding-bottom: 13px;
+	}
+
+	&__ammount {
+		text-align: center;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 30px;
+		color: #231900;
+	}
+}
+
+
+.services {
+	background: #FFCC00;
+	text-align: center;
+	&__contant {
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__column {
+	}
+
+	&__img {
+		padding: 43px 0px 42px 0px ;
+	}
+
+	&__title {
+		& p {
+			padding-bottom: 7px;
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 30px;
+			color: #FFFFFF;
+		}
+	}
+
+	&__text {
+		padding-top: 15px;
+		font-weight: 600;
+		font-size: 17px;
+		line-height: 26px;
+		color: #fff;
+		padding-bottom: 59px;
+	}
+}
+
+.outlets {
+text-align: center;
+background: #F5F5F5;
+padding-bottom: 44px;
+	&__contant {
+	}
+
+	&__title {
+		padding-top: 76px;
+		padding-bottom: 3px;
+	}
+
+	&__subtitle {
+		padding-bottom: 24px;
+	}
+
+	&__row {
+		display: flex;justify-content: space-between;
+	}
+
+	&__column {
+	}
+
+	&__img {
+		padding-bottom: 20px;
+	}
+
+	&__tag {
+		padding-bottom: 10.1px;
+	}
+
+	&__address {
+		font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #231900;
+	}
+}
+
+
+.delivery {
+	color: #231900;
+	padding-top: 108px;
+	&__contant {
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__left {
+	}
+
+	&__title {
+	}
+
+	&__subtitle {
+		padding-bottom: 16px;
+	}
+
+	&__border {
+		width: 175px;
+		height: 5px;
+		background: #FFCC00;
+	}
+
+	&__toptext {
+		font-weight: 600;
+		font-size: 26px;
+		line-height: 39px;
+		padding: 16px 0px;
+	}
+
+	&__text {
+		font-size: 17px;
+		line-height: 26px;
+	}
+
+	&__column {
+		padding-top: 57px;
+	}
+
+	&__column-img {
+		padding-bottom: 19px;
+		padding-right: 15px;
+	}
+
+	&__column-title {
+		padding-bottom: 8px;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	&__column-text {
+		font-size: 17px;
+		line-height: 26px;
+	}
+
+	&__right {
+	}
+}
+
+.team {
+	padding-top: 141px;
+	padding-bottom: 60px;
+	&__contant {
+	}
+
+	&__title {
+		text-align: center;
+	}
+
+	&__subtitle {
+		text-align: center;
+		padding: 3px 0px 25px 0px;
+	}
+
+	&__border {
+		width: 205px;
+		height: 5px;
+		background: #FFCC00;
+		margin-left: 500px;
+	}
+
+	&__row {
+		padding-top: 84px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__column {
+	}
+
+	&__img {
+	}
+
+	&__name {
+		padding-top: 37px;
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 36px;
+		color: #231900;
+	}
+
+	&__position {
+		padding-top: 13px;
+		font-size: 20px;
+		line-height: 30px;
+		color: #231900;
+	}
+}
+
+.app {
+	background: linear-gradient(91.02deg, #FFCC00 17.25%, rgba(255, 204, 0, 0) 178.38%);
+	padding-bottom: 135px;
+	&__contant {
+	}
+
+	&__row {
+		display: flex;
+		padding-top: 65px;
+		justify-content: space-between;
+	}
+
+	&__main {
+		padding-top: 136px;
+	}
+
+	&__title {
+		font-weight: 700;
+		font-size: 55px;
+		line-height: 82px;
+		color: #FFFFFF;
+		padding-bottom: 32px;
+	}
+
+	&__text {
+		font-weight: 600;
+		font-size: 26px;
+		line-height: 39px;
+		color: #FFFFFF;
+		padding-bottom: 73px;
+	}
+}
+
+
+
+.collab {
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		padding:75px 0px ;
+	}
+}
+
+
+.footer {
+
+	&__contant {
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 188px;
+		padding-top: 89px;
+	}
+
+	&__left {
+	}
+
+	&__logo {
+		font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+& a {
+	color: #FFCC00;
+}
+	}
+
+	&__left-text {
+		font-size: 17px;
+		line-height: 26px;
+		color: #231900;
+		padding: 47px 0px ;
+	}
+
+	&__socials {
+		& a {
+			padding-right: 60px;
+		}
+	}
+
+	&__column {
+	}
+
+	&__title {
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 36px;
+		color: #231900;
+		padding-bottom: 47px;
+	}
+
+	&__list {
+		& a {
+			font-size: 17px;
+			line-height: 26px;
+			color: #231900;
+		}
+		& li {
+			padding-bottom: 13px;
+		}
+	}
+
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 43px;
+	}
+
+	&__first {
+	}
+
+	&__last {
+	}
+}
